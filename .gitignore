@@ -1,0 +1,23 @@
+# OS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.env.*
+!/.env.example
+
+# Node (if any)
+node_modules/
+
+# App secrets / tokens
+tokens/
+*.key
+*.pem
+
+# IDE
+.vscode/
+.idea/
